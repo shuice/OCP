@@ -1,35 +1,3 @@
-#UNFINISHED PROJECT
-
-# OCP
-Objective-C Patch
-
-**Sample code For instance method**
-
-```Objective-C++
--NSString.subStringFromRange(range)
-{
-	if (self.length() == 0)
-	{
-		return  "";
-	}
-	return "1";
-}
-```	
-
-**Sample code For class method**
-
-```Objective-C++
-+NSString.subStringFromRange(range)
-{
-	return "";
-}
-```
-
-**Lexical Analysis Graph**
- ![image](https://github.com/shuice/OCP/raw/master/lexicalAnalysisGraph.png)
- 
-**Lexical Analysis Status Change Table**
-
 |From		| Input		| To		| Output 	|Action|
 |: -------:	|:-------	|:-----:	|:------	||
 |1			|\r\t\n\b	|1			|Identify	||
@@ -65,3 +33,5 @@ Objective-C Patch
 |14			|[0-9]		|14			|			||
 |14			|<>=\|&;\r\b\t\nEOF|	|Number		|Pop|
 |15			|<>=\|&;\r\b\t\nEOF|	|Identify	|Pop|
+
+

@@ -33,5 +33,3 @@
 |14			|[0-9]		|14			|			||
 |14			|<>=\|&;\r\b\t\nEOF|	|Number		|Pop|
 |15			|<>=\|&;\r\b\t\nEOF|	|Identify	|Pop|
-
-

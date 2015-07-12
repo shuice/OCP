@@ -25,8 +25,12 @@ Objective-C Patch
 }
 ```
 
+
 **Lexical Analysis Graph**
+
  ![image](https://github.com/shuice/OCP/raw/master/lexicalAnalysisGraph.png)
+
  
 **Lexical Analysis Status Change Table**
+
  ![image](https://github.com/shuice/OCP/raw/master/lexical_status_change_table.png)
